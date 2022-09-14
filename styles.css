@@ -106,6 +106,11 @@ body {
   color: white;
   margin: 20px 0;
 }
+.menu{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
 
 .divider-container {
   height: 80px;
@@ -186,6 +191,19 @@ button {
   top: 0;
 }
 
+/*=============================================
+                 BLOG PART START
+=============================================*/
+.blog{
+  color: white;
+  margin: 20px 0;
+  text-decoration: none;
+  font-size: 35px;
+
+}
+/*=============================================
+                BLOG PART END
+=============================================*/
 
 @media only screen and (max-width: 768px) {
   .box-container {
