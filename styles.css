@@ -188,7 +188,6 @@ button {
 
 
 
-/*small, tab and medium device*/
 @media only screen and (max-width: 768px) {
   .box-container {
     padding: 0 20px;
@@ -199,15 +198,12 @@ button {
   }
 }
 
-/*Laptop and Desktop device / Large device*/
-@media (min-width: 992px) and (max-width : 1400px){
+@media (min-width: 992px) and (max-width : 1800px){
   
   #histories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-bottom: 20px;
-
   }
   .card {
     flex-direction: column;
